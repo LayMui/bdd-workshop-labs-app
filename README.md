@@ -1,6 +1,8 @@
 ## Instructions
 
 ```
+0. You may create a pom.xml from scratch using
+mvn archetype:generate -Dfilter=serenity
 1. Download the apk to a local directory
 2. Run the script ./serenity.sh android -Dappium.app=<path_to_apk>
 example: ./serenity.sh android -Dappium.app = /Users/laymui/dev/app-development-release-align.apk
